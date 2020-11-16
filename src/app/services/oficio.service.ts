@@ -17,4 +17,9 @@ export class OficioService {
         var request = "/api/Empleados/oficios";
         return this._http.get(this.url + request);
     }
+
+    buscarEmpleadosOficio(oficio: string): Observable<any> {
+        var request = "/api/Empleados/EmpleadosOficio/" + oficio;
+        return this._http.get(this.url + request);
+    }
 }
