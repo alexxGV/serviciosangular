@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "serviciosangular"
+    }
+  },
+  "defaultProject": "serviciosangular",
+  "cli": {
+    "analytics": false
+  }
 }

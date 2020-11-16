@@ -1,0 +1,19 @@
+<h1>coches works</h1>
+<table class="table table-dark">
+    <thead>
+        <th>ID</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Constructor</th>
+        <th>Imagen</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let car of coches">
+            <td>{{car.idcoche}}</td>
+            <td>{{car.marca}}</td>
+            <td>{{car.modelo}}</td>
+            <td>{{car.conductor}}</td>
+            <td><img src="{{car.imagen}}" style="width: 200px; height: 150px;" /></td>
+        </tr>
+    </tbody>
+</table>
